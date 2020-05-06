@@ -6,5 +6,5 @@ $(document).ready(function() {
         var sottomenu = $(this).next('.sottomenu');
         // visualizzo il sottomenù
         sottomenu.toggle();
-    })
-})
+    });
+});
