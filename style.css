@@ -65,6 +65,7 @@ header {
     vertical-align: middle;
 }
 
+
 .menu {
     position: relative;
 }
@@ -76,11 +77,14 @@ header {
     height: 500px;
     position: absolute;
     right: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
+    box-shadow: 0 1px 6px 0  rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    border-radius: 8px;
     overflow: auto;
     display: none;
 }
+
+
 
 .active {
     display: block;
@@ -89,15 +93,53 @@ header {
 .sottomenu li {
     display: inline-block;
     float: left;
-    width: 32%;
-    margin-top: 10px;
-}
-
-
-.sottomenu li a {
     width: 84px;
     height: 84px;
     margin: 8px 2px;
+    margin-top: 20px;
+}
+
+.sottomenu li:hover {
+    background-color: #f6fafe;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.sottomenu li a {
+    text-decoration: none;
+}
+div.icona {
+    padding: 5px;
+}
+
+.fa-user-circle, .fa-newspaper, .fa-language {
+    color: #4285f4;
+}
+
+.fa-google, .fa-youtube, .fa-video, .fa-envelope {
+    color: #ea4335;
+}
+
+.fa-map-marker-alt, .fa-photo-video, .fa-tag{
+    color: #fbbc04;
+}
+
+.fa-google-play, .fa-calendar-alt, .fa-google-drive {
+    color: #34a853;
+}
+
+#page-wrapper > header > div.header-right > ul > li:nth-child(4) > a > i.fa-user-circle {
+    color: #000;
+    opacity: 1;
+}
+
+.icona p {
+    font-size: 14px;
+    letter-spacing: .09px;
+    line-height: 16px;
+    color: #000;
+    opacity: 0.75;
+    margin-top: 5px;
 }
 
 main {
