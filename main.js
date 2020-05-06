@@ -7,4 +7,12 @@ $(document).ready(function() {
         // visualizzo il sottomenù
         sottomenu.toggle();
     });
+
+    $('#page-wrapper > main > div > div.input > input').click(function(){
+        $('.fa-search').hide();
+    });
+
+
+
+
 });
