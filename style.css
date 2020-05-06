@@ -65,7 +65,7 @@ header {
     vertical-align: middle;
 }
 
-.dropdown {
+.menu {
     position: relative;
 }
 .sottomenu {
@@ -80,6 +80,10 @@ header {
     border-radius: 5px;
     overflow: auto;
     display: none;
+}
+
+.active {
+    display: block;
 }
 
 .sottomenu li {
