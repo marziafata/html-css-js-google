@@ -251,5 +251,54 @@ button.btn.btn-light:hover {
 footer {
     width: 100%;
     height: 100px;
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
+    font-size: small;
+    border: 1px solid #e4e4e4;
+}
+
+.footer-top {
+    border-bottom: 1px solid #e4e4e4;
+    height: 50%;
+    line-height: 50px;
+}
+
+.footer-top a {
+    margin-left: 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 40%;
+    height: 50px;
+}
+
+.footer-right {
+    width: 40%;
+    height: 50px;
+    text-align: right;
+}
+
+.footer-left > ul > li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.footer-right > ul > li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.footer-left > ul > li > a, .footer-right > ul > li > a {
+    line-height: 50px;
+    height: 50px;
+    font-size: small;
+}
+
+.footer-left > ul > li > a > i, .footer-right > ul > li > a > i {
+    font-size: 20px;
+    vertical-align: middle;
 }
