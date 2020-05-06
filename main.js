@@ -33,5 +33,21 @@ $(document).ready(function() {
     })
 
 
+    // // menù dropdown che si aprono e si chiudono al click su entrambi CON LE CLASSI
+    // //aggancio il click sull'icona
+    // $('.dropdown').click(function(){
+    //     // valuto se il sottomenu è già aperto o no
+    //     if ($(this).next('.sottomenu').hasClass('active')) {
+    //         // il sottomenù è già aperto => la chiudo
+    //         $(this).next('.sottomenu').removeClass('active');
+    //     } else {
+    //         // la risposta è chiusa => la devo aprire dopo aver nascosto altri menù aperti in precedenza
+    //         // chiudo tutte le eventuali cose aperte
+    //         $('.sottomenu').removeClass('active');
+    //         $(this).next('.sottomenu').addClass('active');
+    //     }
+    //
+    // })
+
 
 });
