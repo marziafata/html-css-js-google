@@ -145,6 +145,7 @@ div.icona {
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
+    display: none;
 }
 
 #page-wrapper > header > div.header-right > ul > li:nth-child(4) > div > div > div > button {
