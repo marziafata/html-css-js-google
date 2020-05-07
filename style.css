@@ -184,6 +184,7 @@ main {
 #page-wrapper > main > div > div.input > input {
     width: 600px;
     border-radius: 50px;
+    padding-left: 50px;
 }
 
 #page-wrapper > main > div > div.imput > input:hover, .form-control:focus {

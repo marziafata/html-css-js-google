@@ -11,9 +11,9 @@ $(document).ready(function() {
     // });
 
     //quando clicco nel form, l'icona della lente sparisce
-    $('#page-wrapper > main > div > div.input > input').click(function(){
-        $('.fa-search').hide();
-    });
+    // $('#page-wrapper > main > div > div.input > input').click(function(){
+    //     $('.fa-search').hide();
+    // });
 
 
     // menù dropdown che si aprono e si chiudono al click su entrambi
